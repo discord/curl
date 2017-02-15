@@ -1,3 +1,12 @@
+## Discord fork
+I made a fork/changes here are because I wanted to check in the results of running
+cmake on the platforms that we care about, and be able to build with the lib directly
+without any additional setup steps. We use GN for this, but unfortunately the
+associated GN file is in our own tree (mirroring the way we handle other third party
+libs). Perhaps I'll revist that if we end up open sourcing those parts of our build
+system.
+
+
 ![curl logo](https://cdn.rawgit.com/curl/curl-www/master/logo/curl-logo.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/63/badge)](https://bestpractices.coreinfrastructure.org/projects/63)
 
